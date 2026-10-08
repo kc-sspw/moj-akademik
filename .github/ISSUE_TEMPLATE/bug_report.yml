@@ -1,0 +1,27 @@
+name: Błąd
+description: Zgłoś problem w działającym elemencie projektu
+title: "[Bug] "
+labels:
+  - "type:bug"
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Co się stało?
+      description: Opisz faktyczne zachowanie.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Oczekiwane zachowanie
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Jak odtworzyć?
+  - type: textarea
+    id: context
+    attributes:
+      label: Dodatkowy kontekst
